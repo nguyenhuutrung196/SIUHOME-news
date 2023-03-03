@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.search {
+  background-color: #333333;
+  height: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 1000px;
+  font-family: "Inter Tight", sans-serif;
+}
+.search form {
+  height: 45px;
+  padding: 0 10px;
+  border-left: 1px solid rgb(132, 130, 130);
+  border-right: 1px solid rgb(132, 130, 130);
+}
+.search form .search-text, .search form .search-logo {
+  background-color: #333333;
+  min-height: 43px;
+  color: #FFFFFF;
+  border: none;
+}
+.search .lang-menu {
+  padding: 0 20px;
+  display: flex;
+  width: 100px;
+}
+.search .lang-menu a h4, .search .lang-menu i {
+  float: left;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+.nav-menu {
+  background-color: #FFFFFF;
+  overflow: hidden;
+  padding: 10px 30px;
+}
+.nav-menu img {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.nav-menu li {
+  list-style-type: none;
+  align-content: center;
+  display: inline-block;
+}
+.nav-menu li a {
+  margin: 10px 20px;
+  float: left;
+  color: #333333;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Inter Tight", sans-serif;
+}
+.nav-menu li a:hover {
+  color: #ff0000;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+}
+.banner img {
+  max-width: 1536px;
+  width: 100%;
+  height: auto;
+}
+.banner nav h1 {
+  font-family: "Inter Tight", sans-serif;
+  position: absolute;
+  font-weight: 700;
+  font-size: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.direction-bar {
+  height: 30px;
+  padding-left: 120px;
+  background: #F5F5F5;
+  font-family: "Inter Tight", sans-serif;
+}
+.direction-bar nav {
+  text-align: center;
+  position: block;
+  text-decoration: none;
+  float: left;
+  color: #333333;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.direction-bar nav li {
+  list-style: none;
+}
+.direction-bar nav a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.container {
+  background-color: #FFFFFF;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Inter Tight", sans-serif;
+}
+.container .event {
+  text-align: center;
+  margin-top: 60px;
+}
+.container .event img {
+  padding: 10px;
+}
+.container .main-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .main-content table, .container .main-content tr, .container .main-content td {
+  width: 1245px;
+  text-align: justify;
+  padding-right: 37px;
+  margin: auto;
+  align-items: center;
+  background-color: rgba(241, 241, 241, 0.9450980392);
+}
+.container .main-content table .pic, .container .main-content tr .pic, .container .main-content td .pic {
+  width: 800px;
+}
+.container .main-content table .title-date, .container .main-content tr .title-date, .container .main-content td .title-date {
+  position: relative;
+  text-align: left;
+  color: #FFFFFF;
+}
+.container .main-content table .title-date .img, .container .main-content tr .title-date .img, .container .main-content td .title-date .img {
+  text-align: left;
+}
+.container .main-content table .title-date .date, .container .main-content tr .title-date .date, .container .main-content td .title-date .date {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-200%, -50%);
+}
+.container .main-content table h1, .container .main-content tr h1, .container .main-content td h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+.container .main-content table p, .container .main-content tr p, .container .main-content td p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.container .main-content table .view-more a, .container .main-content tr .view-more a, .container .main-content td .view-more a {
+  color: #333333;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 10px 300px;
+}
+.container .main-content table .view-more a i, .container .main-content tr .view-more a i, .container .main-content td .view-more a i {
+  color: #ff0000;
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */
